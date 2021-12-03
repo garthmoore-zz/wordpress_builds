@@ -38,16 +38,12 @@ Postmark has several agency/developer-friendly features:
 	- Make sure ACF is configured for [local JSON](https://www.advancedcustomfields.com/resources/local-json/), so that the configuration gets saved to the theme, rather than the WP DB.
 - [Better Search and Replace](https://wordpress.org/plugins/better-search-replace/)
 - [Classic Editor](https://wordpress.org/plugins/classic-editor/)
-	- CD: I don't recommend Gutenberg at this point. The developers have yet to provide a stable API and documentation, which leads to simple WP core updates breaking content. I've found that the classic editor + ACF is much more sustainable when a site is going to be online for years.
-- [Disable Blog](https://wordpress.org/plugins/disable-blog/)
-	- Only include if you don't need posts, categories, or tags.
+- [Disable Blog](https://wordpress.org/plugins/disable-blog/), only use for sites without posts
 - [Disable Comments](https://wordpress.org/plugins/disable-comments/)
 - [Disable Embeds](https://wordpress.org/plugins/disable-embeds/)
-	- This disables embedding your site in other sites, not embedding YouTube, Twitter, etc. into your site.
 - [Disable Emojis](https://wordpress.org/plugins/disable-emojis/)
 - [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/)
 - [EWWW Image Optimizer](https://wordpress.org/plugins/ewww-image-optimizer/)
-	- WPEngine's higher tier plans let you run the local processing version of this plugin. Otherwise, EWWW has paid cloud processing features.
 - [GDPR Cookie Compliance](https://wordpress.org/plugins/gdpr-cookie-compliance/)
 -	[Imsanity](https://wordpress.org/plugins/imsanity/)
 -	[Yoast Duplicate Post](https://wordpress.org/plugins/duplicate-post/)
